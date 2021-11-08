@@ -1,0 +1,71 @@
+p {
+  margin: 0;
+}
+
+.container {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.table {
+  margin-bottom: 50px;
+  border: 1px solid #000;
+}
+
+.td-title {
+  padding: 5px 10px;
+  border: 1px solid rgba(0, 0, 0, .5);;
+  border-collapse: collapse;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+.form-add {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  gap: 20px;
+}
+
+.lable {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  gap: 20px;
+}
+
+.button {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.error-wrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  color: red;
+  font-size: 20px;
+}
+
+.td{
+  padding: 10px 10px;
+  border: 1px solid rgba(0, 0, 0, .5);;
+  border-collapse: collapse;
+  font-size: 17px;
+  text-align: center;
+}
